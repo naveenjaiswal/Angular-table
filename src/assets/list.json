@@ -1,0 +1,142 @@
+{
+  "items": [{
+      "title": "Competetive Intelligence",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "My Vendors",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "My Customers",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Test_30_results",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Custom",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": ["hello","world","javascript"],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Mumbai",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Bangalore",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Private Circle",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    }, {
+      "title": "TWO COMPANIES",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "KPMG_REQUESTED_COMPANIES",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Indore",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Goa",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Chennai",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    },
+    {
+      "title": "Kolkata",
+      "date":"2021-07-06T10:34:23.836Z",
+      "entitiesList": [],
+      "id": 1,
+      "email": true,
+      "share": true,
+      "edit": true,
+      "delete": true
+    }
+  ]
+}

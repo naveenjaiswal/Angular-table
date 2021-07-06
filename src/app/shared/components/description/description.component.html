@@ -1,0 +1,12 @@
+<div class="p-2">
+<div class="mb-3 bg-light p-2 font-small">
+    No Description yet <button class="btn btn-sm fw-bold">+ Add Description</button>
+</div>
+    <div *ngIf="entitiesList.length > 0">
+        <div class="mb-2 ps-2 des-color" *ngFor="let entity of entitiesList; let i = index;">
+          {{entity}}
+        </div>
+      </div>
+</div>
+
+

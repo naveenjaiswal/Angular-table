@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "variables";
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  height: 100vh;
+}
+
+.main-container {
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.ver-scroll {
+  overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: $scroll;
+}
+
+.font-small {
+  font-size: 0.75rem;
+}
+
+.btn {
+  color: $mycolor;
+}
+
+.des-color {
+  color: $mycolor;
+}
+
+.nav-pills .nav-link.active {
+  background-color: $mycolor;
+
+}
+
+.nav-pills .nav-link.active .text-secondary {
+  color: $white !important;
+}

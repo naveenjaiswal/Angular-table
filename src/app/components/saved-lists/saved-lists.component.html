@@ -1,0 +1,8 @@
+<div class="d-flex flex-row justify-content-between align-items-start">
+  <div class="flex-row-item-80 ver-scroll vh-100 border-end">
+      <app-table [dataList]="dataList" (entitiesEmitter)="openDetails($event)"></app-table>
+  </div>
+  <div class="flex-row-item-20 ver-scroll vh-100">
+    <app-description [entitiesList]="selectedEntitiesList"></app-description>
+  </div>
+</div>

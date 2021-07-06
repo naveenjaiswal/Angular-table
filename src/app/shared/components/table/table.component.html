@@ -1,0 +1,25 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">List Name</th>
+      <th scope="col">No. of Entities</th>
+      <th scope="col">Actions</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of dataList; let i=index" [ngClass]="{ 'table-active' : i === activeIndex }">
+      <td>{{data?.date | date : 'MMM dd'}}</td>
+      <td class="fw-bold">{{data?.title}}</td>
+      <td>{{data?.entitiesList?.length}}</td>
+      <td>
+        <fa-icon class="me-2 text-secondary" [icon]="['fas','envelope']"></fa-icon>
+        <fa-icon class="me-2 text-secondary" [icon]="['fas','share-alt']"></fa-icon>
+        <fa-icon class="me-2 text-secondary" [icon]="['fas','pencil-alt']"></fa-icon>
+        <fa-icon class="me-2 text-secondary" [icon]="['fas','trash']"></fa-icon>
+      </td>
+      <td><button class="btn btn-sm" [ngClass]="{ 'button-selected' : i === activeIndex }" (click)="openDetails(data.entitiesList,i)">Details</button></td>
+    </tr>
+  </tbody>
+</table>
